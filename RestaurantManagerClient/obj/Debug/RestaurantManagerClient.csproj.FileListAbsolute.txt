@@ -40,4 +40,3 @@ D:\Learn\Faculta\AN 3\SEM 2\Industrial Informatics\Labs\L4\Tema T2\restaurantMan
 D:\Learn\Faculta\AN 3\SEM 2\Industrial Informatics\Labs\L4\Tema T2\restaurantManager\RestaurantManagerClient\obj\Debug\RestaurantManagerClient.csproj.CopyComplete
 D:\Learn\Faculta\AN 3\SEM 2\Industrial Informatics\Labs\L4\Tema T2\restaurantManager\RestaurantManagerClient\obj\Debug\RestaurantManagerClient.exe
 D:\Learn\Faculta\AN 3\SEM 2\Industrial Informatics\Labs\L4\Tema T2\restaurantManager\RestaurantManagerClient\obj\Debug\RestaurantManagerClient.pdb
-D:\Learn\Faculta\AN 3\SEM 2\Industrial Informatics\Labs\L4\Tema T2\restaurantManager\RestaurantManagerClient\obj\Debug\RestaurantManagerClient.caca.resources
