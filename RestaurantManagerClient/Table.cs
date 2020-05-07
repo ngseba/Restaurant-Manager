@@ -17,9 +17,6 @@ namespace RestaurantManagerClient
         public Stopwatch timeLeft = new Stopwatch();
         public bool isOpen = true;
 
-
-
-
         public string Value
         {
             get { return this.Text; }
@@ -27,6 +24,9 @@ namespace RestaurantManagerClient
         }
         public Table(EventHandler eventHandler)
         {
+            components = new Container();
+            ContextMenuStrip = new ContextMenuStrip(this.components);
+            this.ContextMenuStrip.SuspendLayout();
             Size = new System.Drawing.Size(60, 60);
             this.tableName.BackColor = Color.Transparent;
             this.tableName.ForeColor = Color.White;
@@ -39,13 +39,12 @@ namespace RestaurantManagerClient
             this.Controls.Add(tableName);
             InitializeComponent();
             this.Click += new EventHandler(eventHandler);
-            this.openTable(this, new EventArgs());
 
         }
 
         public Table()
         {
-            Size = new System.Drawing.Size(60, 60);
+            Size = new Size(60, 60);
             this.tableName.BackColor = Color.Transparent;
             this.tableName.ForeColor = Color.White;
             this.tableName.Location = new Point(0, this.Size.Height / 3);
@@ -56,7 +55,6 @@ namespace RestaurantManagerClient
             this.SizeMode = PictureBoxSizeMode.StretchImage;
             this.Controls.Add(tableName);
             InitializeComponent();
-            this.openTable(this, new EventArgs());
         }
 
         public void sitGuest(object sender, EventArgs e)

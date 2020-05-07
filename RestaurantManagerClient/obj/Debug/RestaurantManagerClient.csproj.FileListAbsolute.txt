@@ -19,3 +19,25 @@ D:\Learn\Faculta\AN 3\SEM 2\Industrial Informatics\Labs\L4\RestaurantManagerClie
 D:\Learn\Faculta\AN 3\SEM 2\Industrial Informatics\Labs\L4\RestaurantManagerClient\obj\Debug\RestaurantManagerClient.exe
 D:\Learn\Faculta\AN 3\SEM 2\Industrial Informatics\Labs\L4\RestaurantManagerClient\obj\Debug\RestaurantManagerClient.pdb
 D:\Learn\Faculta\AN 3\SEM 2\Industrial Informatics\Labs\L4\RestaurantManagerClient\obj\Debug\RestaurantManagerClient.csprojAssemblyReference.cache
+D:\Learn\Faculta\AN 3\SEM 2\Industrial Informatics\Labs\L4\Tema T2\restaurantManager\RestaurantManagerClient\bin\Debug\RestaurantManagerClient.exe.config
+D:\Learn\Faculta\AN 3\SEM 2\Industrial Informatics\Labs\L4\Tema T2\restaurantManager\RestaurantManagerClient\bin\Debug\RestaurantManagerClient.exe
+D:\Learn\Faculta\AN 3\SEM 2\Industrial Informatics\Labs\L4\Tema T2\restaurantManager\RestaurantManagerClient\bin\Debug\RestaurantManagerClient.pdb
+D:\Learn\Faculta\AN 3\SEM 2\Industrial Informatics\Labs\L4\Tema T2\restaurantManager\RestaurantManagerClient\bin\Debug\MetroFramework.Design.dll
+D:\Learn\Faculta\AN 3\SEM 2\Industrial Informatics\Labs\L4\Tema T2\restaurantManager\RestaurantManagerClient\bin\Debug\MetroFramework.dll
+D:\Learn\Faculta\AN 3\SEM 2\Industrial Informatics\Labs\L4\Tema T2\restaurantManager\RestaurantManagerClient\bin\Debug\MetroFramework.Fonts.dll
+D:\Learn\Faculta\AN 3\SEM 2\Industrial Informatics\Labs\L4\Tema T2\restaurantManager\RestaurantManagerClient\bin\Debug\Newtonsoft.Json.dll
+D:\Learn\Faculta\AN 3\SEM 2\Industrial Informatics\Labs\L4\Tema T2\restaurantManager\RestaurantManagerClient\bin\Debug\System.Net.Http.Formatting.dll
+D:\Learn\Faculta\AN 3\SEM 2\Industrial Informatics\Labs\L4\Tema T2\restaurantManager\RestaurantManagerClient\bin\Debug\Newtonsoft.Json.xml
+D:\Learn\Faculta\AN 3\SEM 2\Industrial Informatics\Labs\L4\Tema T2\restaurantManager\RestaurantManagerClient\bin\Debug\System.Net.Http.Formatting.xml
+D:\Learn\Faculta\AN 3\SEM 2\Industrial Informatics\Labs\L4\Tema T2\restaurantManager\RestaurantManagerClient\obj\Debug\RestaurantManagerClient.csprojAssemblyReference.cache
+D:\Learn\Faculta\AN 3\SEM 2\Industrial Informatics\Labs\L4\Tema T2\restaurantManager\RestaurantManagerClient\obj\Debug\RestaurantManagerClient.ReservationForm.resources
+D:\Learn\Faculta\AN 3\SEM 2\Industrial Informatics\Labs\L4\Tema T2\restaurantManager\RestaurantManagerClient\obj\Debug\RestaurantManagerClient.Resources.resources
+D:\Learn\Faculta\AN 3\SEM 2\Industrial Informatics\Labs\L4\Tema T2\restaurantManager\RestaurantManagerClient\obj\Debug\RestaurantManagerClient.RestaurantForm.resources
+D:\Learn\Faculta\AN 3\SEM 2\Industrial Informatics\Labs\L4\Tema T2\restaurantManager\RestaurantManagerClient\obj\Debug\RestaurantManagerClient.LoginForm.resources
+D:\Learn\Faculta\AN 3\SEM 2\Industrial Informatics\Labs\L4\Tema T2\restaurantManager\RestaurantManagerClient\obj\Debug\RestaurantManagerClient.Properties.Resources.resources
+D:\Learn\Faculta\AN 3\SEM 2\Industrial Informatics\Labs\L4\Tema T2\restaurantManager\RestaurantManagerClient\obj\Debug\RestaurantManagerClient.Table.resources
+D:\Learn\Faculta\AN 3\SEM 2\Industrial Informatics\Labs\L4\Tema T2\restaurantManager\RestaurantManagerClient\obj\Debug\RestaurantManagerClient.csproj.GenerateResource.cache
+D:\Learn\Faculta\AN 3\SEM 2\Industrial Informatics\Labs\L4\Tema T2\restaurantManager\RestaurantManagerClient\obj\Debug\RestaurantManagerClient.csproj.CopyComplete
+D:\Learn\Faculta\AN 3\SEM 2\Industrial Informatics\Labs\L4\Tema T2\restaurantManager\RestaurantManagerClient\obj\Debug\RestaurantManagerClient.exe
+D:\Learn\Faculta\AN 3\SEM 2\Industrial Informatics\Labs\L4\Tema T2\restaurantManager\RestaurantManagerClient\obj\Debug\RestaurantManagerClient.pdb
+D:\Learn\Faculta\AN 3\SEM 2\Industrial Informatics\Labs\L4\Tema T2\restaurantManager\RestaurantManagerClient\obj\Debug\RestaurantManagerClient.caca.resources

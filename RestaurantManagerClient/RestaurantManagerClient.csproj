@@ -63,6 +63,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="caca.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="caca.Designer.cs">
+      <DependentUpon>caca.cs</DependentUpon>
+    </Compile>
     <Compile Include="Connected Services\RestaurantService\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -101,6 +107,9 @@
       <DependentUpon>Table.cs</DependentUpon>
     </Compile>
     <Compile Include="User.cs" />
+    <EmbeddedResource Include="caca.resx">
+      <DependentUpon>caca.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ReservationForm.resx">
       <DependentUpon>ReservationForm.cs</DependentUpon>
     </EmbeddedResource>

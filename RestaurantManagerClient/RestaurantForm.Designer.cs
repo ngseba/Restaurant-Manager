@@ -28,23 +28,6 @@ namespace RestaurantManagerClient
         /// Required method for Designer support - do not modify
         /// the contents of this method with the code editor.
         /// </summary>
-        public void initTableParam()
-        {
-            this.table13 = new RestaurantManagerClient.Table(tableDoubleClick);
-            this.table12 = new RestaurantManagerClient.Table(tableDoubleClick);
-            this.table11 = new RestaurantManagerClient.Table(tableDoubleClick);
-            this.table10 = new RestaurantManagerClient.Table(tableDoubleClick);
-            this.table9 = new RestaurantManagerClient.Table(tableDoubleClick);
-            this.table8 = new RestaurantManagerClient.Table(tableDoubleClick);
-            this.table7 = new RestaurantManagerClient.Table(tableDoubleClick);
-            this.table6 = new RestaurantManagerClient.Table(tableDoubleClick);
-            this.table5 = new RestaurantManagerClient.Table(tableDoubleClick);
-            this.table4 = new RestaurantManagerClient.Table(tableDoubleClick);
-            this.table1 = new RestaurantManagerClient.Table(tableDoubleClick);
-            this.table3 = new RestaurantManagerClient.Table(tableDoubleClick);
-            this.table2 = new RestaurantManagerClient.Table(tableDoubleClick);
-            this.table14 = new RestaurantManagerClient.Table(tableDoubleClick);
-        }
     
         private void InitializeComponent()
         {
@@ -324,6 +307,7 @@ namespace RestaurantManagerClient
             ((System.ComponentModel.ISupportInitialize)(this.table2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.table14)).EndInit();
             this.ResumeLayout(false);
+
 
         }
 

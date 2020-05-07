@@ -1,4 +1,6 @@
-﻿namespace RestaurantManagerClient
+﻿using MetroFramework.Controls;
+
+namespace RestaurantManagerClient
 {
     partial class Table
     {
@@ -28,18 +30,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.isOpen = false;
+            this.openTable(this,new System.EventArgs());
             this.SuspendLayout();
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 50);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             
 
@@ -47,6 +40,6 @@
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox1;
+       
     }
 }
