@@ -26,12 +26,12 @@ namespace RestaurantManagerClient
         }
         public ReservationForm(Reservation reservation,User user,RestaurantForm restaurantForm)
         {
-
             this.user = user;
             this.service = restaurantForm.service;
             this.reservation = reservation;
             this.restaurantForm = restaurantForm;
             InitializeComponent();
+            this.Text = "Edit Reservation";
             this.firstNameTextbox.Text = reservation.FirstName;
             this.lastNameTextbox.Text = reservation.LastName;
             this.PhoneTextbox.Text = reservation.PhoneNumber;
@@ -78,7 +78,5 @@ namespace RestaurantManagerClient
             }
             this.Close();
         }
-
-
     }
 }

@@ -263,6 +263,8 @@
             this.reservationHourTextbox.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.reservationHourTextbox.CustomButton.UseSelectable = true;
             this.reservationHourTextbox.CustomButton.Visible = false;
+            this.reservationHourTextbox.FontSize = MetroFramework.MetroTextBoxSize.Medium;
+            this.reservationHourTextbox.FontWeight = MetroFramework.MetroTextBoxWeight.Light;
             this.reservationHourTextbox.Lines = new string[0];
             this.reservationHourTextbox.Location = new System.Drawing.Point(489, 210);
             this.reservationHourTextbox.MaxLength = 32767;
@@ -293,6 +295,8 @@
             this.reservationMinuteTextbox.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.reservationMinuteTextbox.CustomButton.UseSelectable = true;
             this.reservationMinuteTextbox.CustomButton.Visible = false;
+            this.reservationMinuteTextbox.FontSize = MetroFramework.MetroTextBoxSize.Medium;
+            this.reservationMinuteTextbox.FontWeight = MetroFramework.MetroTextBoxWeight.Light;
             this.reservationMinuteTextbox.Lines = new string[0];
             this.reservationMinuteTextbox.Location = new System.Drawing.Point(552, 210);
             this.reservationMinuteTextbox.MaxLength = 32767;
@@ -333,6 +337,8 @@
             this.descriptionTextbox.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.descriptionTextbox.CustomButton.UseSelectable = true;
             this.descriptionTextbox.CustomButton.Visible = false;
+            this.descriptionTextbox.FontSize = MetroFramework.MetroTextBoxSize.Tall;
+            this.descriptionTextbox.FontWeight = MetroFramework.MetroTextBoxWeight.Light;
             this.descriptionTextbox.Lines = new string[0];
             this.descriptionTextbox.Location = new System.Drawing.Point(40, 289);
             this.descriptionTextbox.MaxLength = 32767;

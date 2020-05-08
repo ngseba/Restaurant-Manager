@@ -43,17 +43,19 @@
             // 
             // 
             this.usernameTextbox.CustomButton.Image = null;
-            this.usernameTextbox.CustomButton.Location = new System.Drawing.Point(94, 1);
+            this.usernameTextbox.CustomButton.Location = new System.Drawing.Point(113, 2);
             this.usernameTextbox.CustomButton.Name = "";
-            this.usernameTextbox.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.usernameTextbox.CustomButton.Size = new System.Drawing.Size(23, 23);
             this.usernameTextbox.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
             this.usernameTextbox.CustomButton.TabIndex = 1;
             this.usernameTextbox.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.usernameTextbox.CustomButton.UseSelectable = true;
             this.usernameTextbox.CustomButton.Visible = false;
+            this.usernameTextbox.FontSize = MetroFramework.MetroTextBoxSize.Medium;
+            this.usernameTextbox.FontWeight = MetroFramework.MetroTextBoxWeight.Light;
             this.usernameTextbox.Lines = new string[] {
         "eatingestablishment"};
-            this.usernameTextbox.Location = new System.Drawing.Point(115, 164);
+            this.usernameTextbox.Location = new System.Drawing.Point(103, 161);
             this.usernameTextbox.MaxLength = 32767;
             this.usernameTextbox.Name = "usernameTextbox";
             this.usernameTextbox.PasswordChar = '\0';
@@ -62,7 +64,7 @@
             this.usernameTextbox.SelectionLength = 0;
             this.usernameTextbox.SelectionStart = 0;
             this.usernameTextbox.ShortcutsEnabled = true;
-            this.usernameTextbox.Size = new System.Drawing.Size(116, 23);
+            this.usernameTextbox.Size = new System.Drawing.Size(139, 28);
             this.usernameTextbox.TabIndex = 0;
             this.usernameTextbox.Text = "eatingestablishment";
             this.usernameTextbox.Theme = MetroFramework.MetroThemeStyle.Light;
@@ -76,26 +78,28 @@
             // 
             // 
             this.passwordTextbox.CustomButton.Image = null;
-            this.passwordTextbox.CustomButton.Location = new System.Drawing.Point(94, 1);
+            this.passwordTextbox.CustomButton.Location = new System.Drawing.Point(113, 2);
             this.passwordTextbox.CustomButton.Name = "";
-            this.passwordTextbox.CustomButton.Size = new System.Drawing.Size(21, 21);
+            this.passwordTextbox.CustomButton.Size = new System.Drawing.Size(23, 23);
             this.passwordTextbox.CustomButton.Style = MetroFramework.MetroColorStyle.Blue;
             this.passwordTextbox.CustomButton.TabIndex = 1;
             this.passwordTextbox.CustomButton.Theme = MetroFramework.MetroThemeStyle.Light;
             this.passwordTextbox.CustomButton.UseSelectable = true;
             this.passwordTextbox.CustomButton.Visible = false;
+            this.passwordTextbox.FontSize = MetroFramework.MetroTextBoxSize.Medium;
+            this.passwordTextbox.FontWeight = MetroFramework.MetroTextBoxWeight.Light;
             this.passwordTextbox.Lines = new string[] {
         "abc123"};
-            this.passwordTextbox.Location = new System.Drawing.Point(115, 209);
+            this.passwordTextbox.Location = new System.Drawing.Point(103, 206);
             this.passwordTextbox.MaxLength = 32767;
             this.passwordTextbox.Name = "passwordTextbox";
-            this.passwordTextbox.PasswordChar = '*';
+            this.passwordTextbox.PasswordChar = '●';
             this.passwordTextbox.ScrollBars = System.Windows.Forms.ScrollBars.None;
             this.passwordTextbox.SelectedText = "";
             this.passwordTextbox.SelectionLength = 0;
             this.passwordTextbox.SelectionStart = 0;
             this.passwordTextbox.ShortcutsEnabled = true;
-            this.passwordTextbox.Size = new System.Drawing.Size(116, 23);
+            this.passwordTextbox.Size = new System.Drawing.Size(139, 28);
             this.passwordTextbox.TabIndex = 1;
             this.passwordTextbox.Text = "abc123";
             this.passwordTextbox.UseSelectable = true;
@@ -105,7 +109,7 @@
             // metroLabel1
             // 
             this.metroLabel1.AutoSize = true;
-            this.metroLabel1.Location = new System.Drawing.Point(41, 164);
+            this.metroLabel1.Location = new System.Drawing.Point(29, 161);
             this.metroLabel1.Name = "metroLabel1";
             this.metroLabel1.Size = new System.Drawing.Size(68, 19);
             this.metroLabel1.TabIndex = 2;
@@ -114,7 +118,7 @@
             // metroLabel2
             // 
             this.metroLabel2.AutoSize = true;
-            this.metroLabel2.Location = new System.Drawing.Point(41, 209);
+            this.metroLabel2.Location = new System.Drawing.Point(29, 206);
             this.metroLabel2.Name = "metroLabel2";
             this.metroLabel2.Size = new System.Drawing.Size(63, 19);
             this.metroLabel2.TabIndex = 3;
@@ -125,7 +129,7 @@
             this.loginButton.FontSize = MetroFramework.MetroButtonSize.Medium;
             this.loginButton.FontWeight = MetroFramework.MetroButtonWeight.Regular;
             this.loginButton.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.loginButton.Location = new System.Drawing.Point(94, 295);
+            this.loginButton.Location = new System.Drawing.Point(96, 292);
             this.loginButton.Name = "loginButton";
             this.loginButton.Size = new System.Drawing.Size(84, 33);
             this.loginButton.TabIndex = 4;
@@ -138,7 +142,7 @@
             // 
             this.loginSpinner.Enabled = false;
             this.loginSpinner.EnsureVisible = false;
-            this.loginSpinner.Location = new System.Drawing.Point(115, 347);
+            this.loginSpinner.Location = new System.Drawing.Point(117, 344);
             this.loginSpinner.Maximum = 100;
             this.loginSpinner.Name = "loginSpinner";
             this.loginSpinner.Size = new System.Drawing.Size(45, 45);
@@ -152,7 +156,7 @@
             // 
             this.statusLabel.AutoSize = true;
             this.statusLabel.ForeColor = System.Drawing.Color.Red;
-            this.statusLabel.Location = new System.Drawing.Point(41, 253);
+            this.statusLabel.Location = new System.Drawing.Point(43, 250);
             this.statusLabel.Name = "statusLabel";
             this.statusLabel.Size = new System.Drawing.Size(83, 19);
             this.statusLabel.TabIndex = 5;

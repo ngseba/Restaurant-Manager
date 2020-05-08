@@ -14,7 +14,6 @@ namespace RestaurantManagerClient
     public partial class Table : PictureBox
     {
         public Label tableName = new Label();
-        public Stopwatch timeLeft = new Stopwatch();
         public bool isOpen = true;
 
         public string Value
@@ -65,7 +64,6 @@ namespace RestaurantManagerClient
                 var busyTableMenu = new MetroContextMenu(this.components);
                 busyTableMenu.Items.Add("Clear table", null, openTable);
                 this.ContextMenuStrip = busyTableMenu;
-                this.timeLeft.Start();
                 this.Image = Resources.busytable;
             }
         }
@@ -74,7 +72,6 @@ namespace RestaurantManagerClient
         {
             if (!this.isOpen)
             {
-                this.timeLeft.Stop();
                 this.Image = Resources.table;
                 this.isOpen = true;
                 var tableMenu = new MetroContextMenu(this.components);
@@ -83,9 +80,6 @@ namespace RestaurantManagerClient
             }
 
         }
-
-
-
 
         protected override void OnPaint(PaintEventArgs pe)
         {

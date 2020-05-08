@@ -29,26 +29,30 @@ namespace RestaurantManagerClient
         /// the contents of this method with the code editor.
         /// </summary>
     
+        
+
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.metroPanel1 = new MetroFramework.Controls.MetroPanel();
-            this.table13 = new RestaurantManagerClient.Table(tableDoubleClick);
-            this.table12 = new RestaurantManagerClient.Table(tableDoubleClick);
-            this.table11 = new RestaurantManagerClient.Table(tableDoubleClick);
-            this.table10 = new RestaurantManagerClient.Table(tableDoubleClick);
-            this.table9 = new RestaurantManagerClient.Table(tableDoubleClick);
-            this.table8 = new RestaurantManagerClient.Table(tableDoubleClick);
-            this.table7 = new RestaurantManagerClient.Table(tableDoubleClick);
-            this.table6 = new RestaurantManagerClient.Table(tableDoubleClick);
-            this.table5 = new RestaurantManagerClient.Table(tableDoubleClick);
-            this.table4 = new RestaurantManagerClient.Table(tableDoubleClick);
-            this.table1 = new RestaurantManagerClient.Table(tableDoubleClick);
-            this.table3 = new RestaurantManagerClient.Table(tableDoubleClick);
-            this.table2 = new RestaurantManagerClient.Table(tableDoubleClick);
-            this.table14 = new RestaurantManagerClient.Table(tableDoubleClick);
             this.reservationListbox = new System.Windows.Forms.ListBox();
             this.datePicker = new MetroFramework.Controls.MetroDateTime();
             this.reservationButton = new MetroFramework.Controls.MetroButton();
+            this.table13 = new RestaurantManagerClient.Table();
+            this.table12 = new RestaurantManagerClient.Table();
+            this.table11 = new RestaurantManagerClient.Table();
+            this.table10 = new RestaurantManagerClient.Table();
+            this.table9 = new RestaurantManagerClient.Table();
+            this.table8 = new RestaurantManagerClient.Table();
+            this.table7 = new RestaurantManagerClient.Table();
+            this.table6 = new RestaurantManagerClient.Table();
+            this.table5 = new RestaurantManagerClient.Table();
+            this.table4 = new RestaurantManagerClient.Table();
+            this.table1 = new RestaurantManagerClient.Table();
+            this.table3 = new RestaurantManagerClient.Table();
+            this.table2 = new RestaurantManagerClient.Table();
+            this.table14 = new RestaurantManagerClient.Table();
+            this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
             this.metroPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.table13)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.table12)).BeginInit();
@@ -94,162 +98,6 @@ namespace RestaurantManagerClient
             this.metroPanel1.VerticalScrollbarHighlightOnWheel = false;
             this.metroPanel1.VerticalScrollbarSize = 10;
             // 
-            // table13
-            // 
-            this.table13.Location = new System.Drawing.Point(409, 3);
-            this.table13.Name = "table13";
-            this.table13.Size = new System.Drawing.Size(60, 60);
-            this.table13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.table13.TabIndex = 15;
-            this.table13.TabStop = false;
-            this.table13.Tag = "15";
-            this.table13.Value = "";
-            // 
-            // table12
-            // 
-            this.table12.Location = new System.Drawing.Point(276, 180);
-            this.table12.Name = "table12";
-            this.table12.Size = new System.Drawing.Size(60, 60);
-            this.table12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.table12.TabIndex = 14;
-            this.table12.TabStop = false;
-            this.table12.Tag = "32";
-            this.table12.Value = "";
-            // 
-            // table11
-            // 
-            this.table11.Location = new System.Drawing.Point(276, 103);
-            this.table11.Name = "table11";
-            this.table11.Size = new System.Drawing.Size(60, 60);
-            this.table11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.table11.TabIndex = 13;
-            this.table11.TabStop = false;
-            this.table11.Tag = "22";
-            this.table11.Value = "";
-            // 
-            // table10
-            // 
-            this.table10.Location = new System.Drawing.Point(214, 282);
-            this.table10.Name = "table10";
-            this.table10.Size = new System.Drawing.Size(60, 60);
-            this.table10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.table10.TabIndex = 12;
-            this.table10.TabStop = false;
-            this.table10.Tag = "40";
-            this.table10.Value = "";
-            // 
-            // table9
-            // 
-            this.table9.Location = new System.Drawing.Point(355, 282);
-            this.table9.Name = "table9";
-            this.table9.Size = new System.Drawing.Size(60, 60);
-            this.table9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.table9.TabIndex = 11;
-            this.table9.TabStop = false;
-            this.table9.Tag = "41";
-            this.table9.Value = "";
-            // 
-            // table8
-            // 
-            this.table8.Location = new System.Drawing.Point(174, 180);
-            this.table8.Name = "table8";
-            this.table8.Size = new System.Drawing.Size(60, 60);
-            this.table8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.table8.TabIndex = 10;
-            this.table8.TabStop = false;
-            this.table8.Tag = "31";
-            this.table8.Value = "";
-            // 
-            // table7
-            // 
-            this.table7.Location = new System.Drawing.Point(174, 103);
-            this.table7.Name = "table7";
-            this.table7.Size = new System.Drawing.Size(60, 60);
-            this.table7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.table7.TabIndex = 9;
-            this.table7.TabStop = false;
-            this.table7.Tag = "21";
-            this.table7.Value = "";
-            // 
-            // table6
-            // 
-            this.table6.Location = new System.Drawing.Point(71, 180);
-            this.table6.Name = "table6";
-            this.table6.Size = new System.Drawing.Size(60, 60);
-            this.table6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.table6.TabIndex = 8;
-            this.table6.TabStop = false;
-            this.table6.Tag = "21";
-            this.table6.Value = "";
-            // 
-            // table5
-            // 
-            this.table5.Location = new System.Drawing.Point(71, 103);
-            this.table5.Name = "table5";
-            this.table5.Size = new System.Drawing.Size(60, 60);
-            this.table5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.table5.TabIndex = 7;
-            this.table5.TabStop = false;
-            this.table5.Tag = "20";
-            this.table5.Value = "";
-            // 
-            // table4
-            // 
-            this.table4.Location = new System.Drawing.Point(343, 3);
-            this.table4.Name = "table4";
-            this.table4.Size = new System.Drawing.Size(60, 60);
-            this.table4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.table4.TabIndex = 6;
-            this.table4.TabStop = false;
-            this.table4.Tag = "14";
-            this.table4.Value = "";
-            // 
-            // table1
-            // 
-            this.table1.Location = new System.Drawing.Point(201, 3);
-            this.table1.Name = "table1";
-            this.table1.Size = new System.Drawing.Size(60, 60);
-            this.table1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.table1.TabIndex = 5;
-            this.table1.TabStop = false;
-            this.table1.Tag = "13";
-            this.table1.Value = "";
-            // 
-            // table3
-            // 
-            this.table3.Location = new System.Drawing.Point(135, 3);
-            this.table3.Name = "table3";
-            this.table3.Size = new System.Drawing.Size(60, 60);
-            this.table3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.table3.TabIndex = 4;
-            this.table3.TabStop = false;
-            this.table3.Tag = "12";
-            this.table3.Value = "";
-            // 
-            // table2
-            // 
-            this.table2.Image = global::RestaurantManagerClient.Resources.table;
-            this.table2.Location = new System.Drawing.Point(69, 3);
-            this.table2.Name = "table2";
-            this.table2.Size = new System.Drawing.Size(60, 60);
-            this.table2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.table2.TabIndex = 3;
-            this.table2.TabStop = false;
-            this.table2.Tag = "11";
-            this.table2.Value = "";
-            // 
-            // table14
-            // 
-            this.table14.Image = global::RestaurantManagerClient.Resources.table;
-            this.table14.Location = new System.Drawing.Point(3, 3);
-            this.table14.Name = "table14";
-            this.table14.Size = new System.Drawing.Size(60, 60);
-            this.table14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.table14.TabIndex = 2;
-            this.table14.TabStop = false;
-            this.table14.Tag = "10";
-            this.table14.Value = "";
-            // 
             // reservationListbox
             // 
             this.reservationListbox.FormattingEnabled = true;
@@ -280,11 +128,204 @@ namespace RestaurantManagerClient
             this.reservationButton.UseSelectable = true;
             this.reservationButton.Click += new System.EventHandler(this.reservationButton_Click);
             // 
+            // table13
+            // 
+            this.table13.Image = global::RestaurantManagerClient.Resources.table;
+            this.table13.Location = new System.Drawing.Point(409, 3);
+            this.table13.Name = "table13";
+            this.table13.Size = new System.Drawing.Size(60, 60);
+            this.table13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.table13.TabIndex = 15;
+            this.table13.TabStop = false;
+            this.table13.Tag = "15";
+            this.table13.Value = "";
+            this.table13.Click += new System.EventHandler(this.tableDoubleClick);
+            // 
+            // table12
+            // 
+            this.table12.Image = global::RestaurantManagerClient.Resources.table;
+            this.table12.Location = new System.Drawing.Point(276, 180);
+            this.table12.Name = "table12";
+            this.table12.Size = new System.Drawing.Size(60, 60);
+            this.table12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.table12.TabIndex = 14;
+            this.table12.TabStop = false;
+            this.table12.Tag = "32";
+            this.table12.Value = "";
+            this.table12.Click += new System.EventHandler(this.tableDoubleClick);
+            // 
+            // table11
+            // 
+            this.table11.Image = global::RestaurantManagerClient.Resources.table;
+            this.table11.Location = new System.Drawing.Point(276, 103);
+            this.table11.Name = "table11";
+            this.table11.Size = new System.Drawing.Size(60, 60);
+            this.table11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.table11.TabIndex = 13;
+            this.table11.TabStop = false;
+            this.table11.Tag = "22";
+            this.table11.Value = "";
+            this.table11.Click += new System.EventHandler(this.tableDoubleClick);
+            // 
+            // table10
+            // 
+            this.table10.Image = global::RestaurantManagerClient.Resources.table;
+            this.table10.Location = new System.Drawing.Point(214, 282);
+            this.table10.Name = "table10";
+            this.table10.Size = new System.Drawing.Size(60, 60);
+            this.table10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.table10.TabIndex = 12;
+            this.table10.TabStop = false;
+            this.table10.Tag = "40";
+            this.table10.Value = "";
+            this.table10.Click += new System.EventHandler(this.tableDoubleClick);
+            // 
+            // table9
+            // 
+            this.table9.Image = global::RestaurantManagerClient.Resources.table;
+            this.table9.Location = new System.Drawing.Point(355, 282);
+            this.table9.Name = "table9";
+            this.table9.Size = new System.Drawing.Size(60, 60);
+            this.table9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.table9.TabIndex = 11;
+            this.table9.TabStop = false;
+            this.table9.Tag = "41";
+            this.table9.Value = "";
+            this.table9.Click += new System.EventHandler(this.tableDoubleClick);
+            // 
+            // table8
+            // 
+            this.table8.Image = global::RestaurantManagerClient.Resources.table;
+            this.table8.Location = new System.Drawing.Point(174, 180);
+            this.table8.Name = "table8";
+            this.table8.Size = new System.Drawing.Size(60, 60);
+            this.table8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.table8.TabIndex = 10;
+            this.table8.TabStop = false;
+            this.table8.Tag = "31";
+            this.table8.Value = "";
+            this.table8.Click += new System.EventHandler(this.tableDoubleClick);
+            // 
+            // table7
+            // 
+            this.table7.Image = global::RestaurantManagerClient.Resources.table;
+            this.table7.Location = new System.Drawing.Point(174, 103);
+            this.table7.Name = "table7";
+            this.table7.Size = new System.Drawing.Size(60, 60);
+            this.table7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.table7.TabIndex = 9;
+            this.table7.TabStop = false;
+            this.table7.Tag = "21";
+            this.table7.Value = "";
+            this.table7.Click += new System.EventHandler(this.tableDoubleClick);
+            // 
+            // table6
+            // 
+            this.table6.Image = global::RestaurantManagerClient.Resources.table;
+            this.table6.Location = new System.Drawing.Point(71, 180);
+            this.table6.Name = "table6";
+            this.table6.Size = new System.Drawing.Size(60, 60);
+            this.table6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.table6.TabIndex = 8;
+            this.table6.TabStop = false;
+            this.table6.Tag = "21";
+            this.table6.Value = "";
+            this.table6.Click += new System.EventHandler(this.tableDoubleClick);
+            // 
+            // table5
+            // 
+            this.table5.Image = global::RestaurantManagerClient.Resources.table;
+            this.table5.Location = new System.Drawing.Point(71, 103);
+            this.table5.Name = "table5";
+            this.table5.Size = new System.Drawing.Size(60, 60);
+            this.table5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.table5.TabIndex = 7;
+            this.table5.TabStop = false;
+            this.table5.Tag = "20";
+            this.table5.Value = "";
+            this.table5.Click += new System.EventHandler(this.tableDoubleClick);
+            // 
+            // table4
+            // 
+            this.table4.Image = global::RestaurantManagerClient.Resources.table;
+            this.table4.Location = new System.Drawing.Point(343, 3);
+            this.table4.Name = "table4";
+            this.table4.Size = new System.Drawing.Size(60, 60);
+            this.table4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.table4.TabIndex = 6;
+            this.table4.TabStop = false;
+            this.table4.Tag = "14";
+            this.table4.Value = "";
+            this.table4.Click += new System.EventHandler(this.tableDoubleClick);
+            // 
+            // table1
+            // 
+            this.table1.Image = global::RestaurantManagerClient.Resources.table;
+            this.table1.Location = new System.Drawing.Point(201, 3);
+            this.table1.Name = "table1";
+            this.table1.Size = new System.Drawing.Size(60, 60);
+            this.table1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.table1.TabIndex = 5;
+            this.table1.TabStop = false;
+            this.table1.Tag = "13";
+            this.table1.Value = "";
+            this.table1.Click += new System.EventHandler(this.tableDoubleClick);
+            // 
+            // table3
+            // 
+            this.table3.Image = global::RestaurantManagerClient.Resources.table;
+            this.table3.Location = new System.Drawing.Point(135, 3);
+            this.table3.Name = "table3";
+            this.table3.Size = new System.Drawing.Size(60, 60);
+            this.table3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.table3.TabIndex = 4;
+            this.table3.TabStop = false;
+            this.table3.Tag = "12";
+            this.table3.Value = "";
+            this.table3.Click += new System.EventHandler(this.tableDoubleClick);
+            // 
+            // table2
+            // 
+            this.table2.Image = global::RestaurantManagerClient.Resources.table;
+            this.table2.Location = new System.Drawing.Point(69, 3);
+            this.table2.Name = "table2";
+            this.table2.Size = new System.Drawing.Size(60, 60);
+            this.table2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.table2.TabIndex = 3;
+            this.table2.TabStop = false;
+            this.table2.Tag = "11";
+            this.table2.Value = "";
+            this.table2.Click += new System.EventHandler(this.tableDoubleClick);
+            // 
+            // table14
+            // 
+            this.table14.Image = global::RestaurantManagerClient.Resources.table;
+            this.table14.Location = new System.Drawing.Point(3, 3);
+            this.table14.Name = "table14";
+            this.table14.Size = new System.Drawing.Size(60, 60);
+            this.table14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.table14.TabIndex = 2;
+            this.table14.TabStop = false;
+            this.table14.Tag = "10";
+            this.table14.Value = "";
+            this.table14.Click += new System.EventHandler(this.tableDoubleClick);
+            // 
+            // metroLabel1
+            // 
+            this.metroLabel1.AutoSize = true;
+            this.metroLabel1.FontSize = MetroFramework.MetroLabelSize.Tall;
+            this.metroLabel1.Location = new System.Drawing.Point(284, 33);
+            this.metroLabel1.Name = "metroLabel1";
+            this.metroLabel1.Size = new System.Drawing.Size(57, 25);
+            this.metroLabel1.TabIndex = 5;
+            this.metroLabel1.Text = "Tables";
+            // 
             // RestaurantForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.metroLabel1);
             this.Controls.Add(this.reservationButton);
             this.Controls.Add(this.datePicker);
             this.Controls.Add(this.reservationListbox);
@@ -307,7 +348,7 @@ namespace RestaurantManagerClient
             ((System.ComponentModel.ISupportInitialize)(this.table2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.table14)).EndInit();
             this.ResumeLayout(false);
-
+            this.PerformLayout();
 
         }
 
@@ -331,6 +372,7 @@ namespace RestaurantManagerClient
         private Table table11;
         private Table table13;
         private MetroFramework.Controls.MetroButton reservationButton;
+        private MetroFramework.Controls.MetroLabel metroLabel1;
     }
 }
 
